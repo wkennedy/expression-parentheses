@@ -1,18 +1,18 @@
-##Expression Converter API
+## Expression Converter API
 
 This is a simple web application with an API to convert mathematical functions.
 
-####Quick Start
+#### Quick Start
 To see the application running and to start looking at the API, go here (deployed to AWS ECS):
 
 http://ec2co-ecsel-59fovvubh6ap-495900397.us-east-1.elb.amazonaws.com:8080/swagger/swagger-ui.html
 
-####Note:
+#### Note:
 In order to run and build this project, you do need Java 11+ installed with the JAVA_HOME environment variable set (otherwise, you can download the Docker image from DockerHub and run it):
 
     JAVA_HOME - location of a JDK home dir
     
-###Build and Run    
+### Build and Run    
 
 To build and run the application locally, use the following command from the project root directory:
 
@@ -29,8 +29,12 @@ Once you build the project and want to create a docker image, use:
 To run your Docker image:
    
      docker run -it --rm expression-converter
+
+or if you just want to run the Docker image from my repo:
+
+    docker run -it --rm waggins/perl_password_validator:v1
      
-###Usage
+### Usage
 Once the application is up and running you can go to your browser and visit the following url:
 
 http://localhost:8080/swagger/swagger-ui.html     
