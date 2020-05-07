@@ -34,7 +34,7 @@ To run your Docker image:
 
 or if you just want to run the Docker image from my repo:
 
-    docker run -it --rm waggins/perl_password_validator:v1
+    docker run -it --rm waggins/expression-converter:v1
      
 ### Usage
 Once the application is up and running you can go to your browser and visit the following url:
