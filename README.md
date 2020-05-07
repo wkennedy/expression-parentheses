@@ -1,3 +1,5 @@
+![Java CI with Maven](https://github.com/wkennedy/expression-parentheses/workflows/Java%20CI%20with%20Maven/badge.svg)
+
 ## Expression Converter API
 
 This is a simple web application with an API to convert mathematical functions.
