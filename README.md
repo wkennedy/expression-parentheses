@@ -5,7 +5,7 @@
 This is a simple web application with an API to convert mathematical functions.
 
 #### Quick Start
-To see the application running and to start looking at the API, go here (deployed to AWS ECS):
+To see the application running and to start looking at the API, go here (deployed to AWS ECS). If you get a 503, give it a few seconds, it might take a little bit to spin back up:
 
 http://ec2co-ecsel-59fovvubh6ap-495900397.us-east-1.elb.amazonaws.com:8080/swagger/swagger-ui.html
 
