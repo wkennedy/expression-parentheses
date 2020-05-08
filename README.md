@@ -4,6 +4,16 @@
 
 This is a simple web application with an API to convert mathematical functions.
 
+#### Overview
+
+The main logic for this application occurs in the following classes:
+
+com.github.wkennedy.expressionparentheses.services.ExpressionService
+com.github.wkennedy.expressionparentheses.converters.InfixToPostfixExpressionConverter
+com.github.wkennedy.expressionparentheses.converters.PostfixToInfixExpressionConverter
+
+The redudant parentheses functionality uses the infix to postfix converter to remove all the parentheses, then uses the postfix to infix converter to build the infix expression with minimum parentheses.
+
 #### Demo URL
 To see the application running and to start looking at the API, go here (deployed to AWS ECS). If you get a 503, give it a few seconds, it might take a little bit to spin back up:
 
