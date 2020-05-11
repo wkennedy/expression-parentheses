@@ -15,7 +15,7 @@
     <description>A REST API for converting mathematical expressions</description>
 
     <properties>
-        <java.version>11</java.version>
+        <java.version>8</java.version>
     </properties>
 
     <dependencies>
