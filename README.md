@@ -4,15 +4,30 @@
 
 This is a simple web application with an API to convert mathematical functions.
 
-#### Quick Start
+#### Overview
+
+The main logic for this application occurs in the following classes:
+
+com.github.wkennedy.expressionparentheses.services.ExpressionService
+com.github.wkennedy.expressionparentheses.converters.InfixToPostfixExpressionConverter
+com.github.wkennedy.expressionparentheses.converters.PostfixToInfixExpressionConverter
+
+The redudant parentheses functionality uses the infix to postfix converter to remove all the parentheses, then uses the postfix to infix converter to build the infix expression with minimum parentheses.
+
+#### Demo URL
 To see the application running and to start looking at the API, go here (deployed to AWS ECS). If you get a 503, give it a few seconds, it might take a little bit to spin back up:
 
-http://ec2co-ecsel-59fovvubh6ap-495900397.us-east-1.elb.amazonaws.com:8080/swagger/swagger-ui.html
+http://expressionconvert-env.eba-rrz3fvyk.us-east-1.elasticbeanstalk.com/swagger/swagger-ui.html
 
 #### Note:
 In order to run and build this project, you do need Java 11+ installed with the JAVA_HOME environment variable set (otherwise, you can download the Docker image from DockerHub and run it):
 
     JAVA_HOME - location of a JDK home dir
+    
+### Run (executable jar)
+
+    java -jar expression-converter.jar
+    //Then go to http://localhost:8080/swagger/swagger-ui.html
     
 ### Build and Run    
 
