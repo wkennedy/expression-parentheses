@@ -20,7 +20,7 @@ To see the application running and to start looking at the API, go here (deploye
 http://expressionconvert-env.eba-rrz3fvyk.us-east-1.elasticbeanstalk.com/swagger/swagger-ui.html
 
 #### Note:
-In order to run and build this project, you do need Java 11+ installed with the JAVA_HOME environment variable set (otherwise, you can download the Docker image from DockerHub and run it):
+In order to run and build this project, you do need Java 8+ installed with the JAVA_HOME environment variable set (otherwise, you can download the Docker image from DockerHub and run it):
 
     JAVA_HOME - location of a JDK home dir
     
